@@ -1,0 +1,14 @@
+.imagem-container {
+  position: relative;
+  overflow: hidden;
+  width: 600px;
+  padding: 200px;
+}
+
+.imagem {
+  transition: transform 0.3s ease;
+}
+
+.imagem-container.hovered .imagem {
+  transform: scale(1.2);
+}
